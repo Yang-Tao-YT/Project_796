@@ -1,1 +1,1 @@
-# Project for the 796 __Computational Method of Finance__
+# Project for the 796 ___Computational Method of Finance___
