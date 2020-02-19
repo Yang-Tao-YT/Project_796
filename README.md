@@ -15,6 +15,6 @@ starting with the built of Autoencoder network, we will use Keras and TensorFlow
 # By the end of project
 In the end, after exciting exploration, we hope to find the answers to two questions: would the portfolio be profitable in the real financial market? And will Autoencoder show its advantages against the PCA when it is applied to financial problems?
  
-#Reference
+# Reference
 >Heaton, J. & Polson, N. & Witte, J.. (2016). Deep Portfolio Theory.
 Blogs, Edgar Press. “Financial Portfolio Management with Deep Learning.” The Intelligence of Information, December 21, 2016. 
