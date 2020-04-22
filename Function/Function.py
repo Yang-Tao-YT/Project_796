@@ -41,12 +41,12 @@ def inital_model(inputs,optimizer = 'adam',loss='mean_squared_error'):
 
 def get_data(days, valid):
 
-    stock_lp = pd.read_csv(join(current_folder , 'Data\\SP_500_clean.csv') , index_col = 0)
-    pct =  pd.read_csv(join(current_folder , 'Data\\SP_500_pct_change.csv')  , index_col = 0)
-    net =  pd.read_csv(   join(current_folder , 'Data\\SP_500_net_change.csv')   , index_col = 0)
-    spy_full = pd.read_csv(   join(current_folder , 'Data\\SP_500_index.csv') , index_col=0).astype('float32')
-    spy_net = pd.read_csv(join(current_folder , 'Data\\SP_500_index_net_change.csv'), index_col=0).astype('float32')
-    spy_percentage = pd.read_csv(join(current_folder , 'Data\\SP_500_index_pct_change.csv') , index_col=0).astype('float32')
+    stock_lp = pd.read_csv(join(current_folder , 'Data/SP_500_clean.csv') , index_col = 0)
+    pct =  pd.read_csv(join(current_folder , 'Data/SP_500_pct_change.csv')  , index_col = 0)
+    net =  pd.read_csv(   join(current_folder , 'Data/SP_500_net_change.csv')   , index_col = 0)
+    spy_full = pd.read_csv(   join(current_folder , 'Data/SP_500_index.csv') , index_col=0).astype('float32')
+    spy_net = pd.read_csv(join(current_folder , 'Data/SP_500_index_net_change.csv'), index_col=0).astype('float32')
+    spy_percentage = pd.read_csv(join(current_folder , 'Data/SP_500_index_pct_change.csv') , index_col=0).astype('float32')
 
 
 
