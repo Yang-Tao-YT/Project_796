@@ -1,4 +1,5 @@
 # Project for the 796 ___Computational Method of Finance___
+# Autoencoder
 # Introduction:
 In our portfolio management project, we aim to train the ANN with 500 stocks’ data from the US financial market to find out the outperformed set of stocks and then give proper weights to maximize the net worth, respectively. For the stocks sifting process, one traditional way is to use Principal Component Analysis (PCA), a linear technique for dimensionality reduction, to find out the few ‘powerful’ stocks which could represent the majority performance of the system in order to realize the purpose of stocks selection. However, this type of traditional method can only analyze data set in a linear manner, which is not efficient in recognizing more complex relationships, non-linear relationships, beneath our data set. Therefore, in order to improve efficiency in portfolio optimization, our project will apply deep learning theory, combines with the neural network and **Autoencoder**, to model our data in a non-linear way to realize our financial goal.
 
